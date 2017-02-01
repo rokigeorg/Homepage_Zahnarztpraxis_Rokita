@@ -1,0 +1,3 @@
+Start SCSS watcher cmd:
+
+sass --watch scss:css
