@@ -1,0 +1,16 @@
+$font-stack:    'Open Sans Condensed', sans-serif;
+$font-color: #fff;
+$bg-lila: #9900cc;
+
+body {
+  font: 100% $font-stack;
+  background-color: $bg-lila;
+
+
+  a,
+  a:focus,
+  a:hover {
+    color: #fff;
+  }
+}
+
