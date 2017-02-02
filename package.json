@@ -1,0 +1,24 @@
+{
+  "name": "zahnarztpraxis_rokita",
+  "version": "1.0.0",
+  "description": "Start SCSS watcher cmd:",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rokigeorg/Homepage_Zahnarztpraxis_Rokita.git"
+  },
+  "author": "Georg Rokita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rokigeorg/Homepage_Zahnarztpraxis_Rokita/issues"
+  },
+  "homepage": "https://github.com/rokigeorg/Homepage_Zahnarztpraxis_Rokita#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
