@@ -1,153 +1,214 @@
-$font-stack:    'Open Sans Condensed', sans-serif;
-$font-color: #fff;
-$lila: #9900cc;
-$grau: #7d7d7d;
-$nav-font-color: white;
+  $font-stack: 'Open Sans Condensed', sans-serif;
+  $font-color: #fff;
+  $lila: #9900cc;
+  $grau: #7d7d7d;
+  $nav-font-color: white;
 
-* {
-  font: 100% $font-stack;
-  padding: 0;
-  margin: 0;
-  background-color: white;
-  font-size: 1.5rem;
+  * {
+    font: 100% $font-stack;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-size: 1.5rem;
 
-  a,
-  a:focus,
-  a:hover {
-    color: $grau;
-  }
-}
-
-h2{
-  font-size: 3rem;
-}
-h3{
-  font-size: 2.5rem;
-}
-h4{
-  font-size: 2rem;
-}
-
-.active{
-  display: block;
-}
-.hidden{
-  display: none;
-}
-
-
-header{
-  nav{
-    background-color: $lila;
-    width: 100%;
-    color: $nav-font-color;
-    font-size: 4rem;
-  }
-  .h_menu{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    background-color: $lila;
-    padding-right: 2%;
-  }
-  .i_menu{
-    @extend nav;
-    border-bottom: 2px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 7rem;
-
-  }
-
-  span{
-    background-color: $lila;
-  }
-
-  .nav_icons{
-    font-size: 6rem;
-  }
-
-  .nav_infoData{
-    @extend span;
-    font-size: 2rem;
-  }
-
-  a,
-  a:focus,
-  a:hover {
-    color: $nav-font-color;
-  }
-  .nav_item_box{
-    display: none;
-  }
-
-}
-
-.header_img_box{
-  width: 100%;
-  img{
-    width: 100%;
-  }
-}
-
-.logo_wrapper{
-
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border-bottom: 2px solid $lila;
-
-  .logo_items{
-    padding: 2% 0;
-    width: 100%;
-    font-size: 2.5rem;
-  }
-  img{
-    max-width: 50%;
-  }
-}
-
-.welcome_wrapper{
-  padding-top: 2.5%;
-  width: 100%;
-
-  .welcome_text_box{
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-  }
-
-}
-
-.akuelles_wrapper{
-  width: 100%;
-
-  .akl_box{
-    padding-top: 2.5%;
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .akt_banner_box{
-    background-color: $lila;
-    padding: 1.25%;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    h4{
-      @extend .akt_banner_box;
-      color: white;
-
+    a,
+    a:focus,
+    a:hover {
+      color: $grau;
     }
   }
 
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
 
-  .akt_headline_box{
+  .active {
+    display: block;
+  }
+  .hidden {
+    display: none;
+  }
+
+  header {
+    nav {
+      background-color: $lila;
+      width: 100%;
+      color: $nav-font-color;
+      font-size: 4rem;
+    }
+    .h_menu {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      background-color: $lila;
+      padding-right: 2%;
+    }
+    .i_menu {
+      @extend nav;
+      border-bottom: 2px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 7rem;
+
+    }
+
+    span {
+      background-color: $lila;
+      font-size: 2.5rem;
+    }
+
+    .nav_icons {
+      font-size: 2rem;
+    }
+
+    .nav_infoData {
+      @extend span;
+      font-size: 2rem;
+    }
+
+    a,
+    a:focus,
+    a:hover {
+      color: $nav-font-color;
+    }
+    .nav_item_box {
+      display: block;
+    }
+
+  }
+
+  .header_img_box {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  .logo_wrapper {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     border-bottom: 2px solid $lila;
+
+    .logo_items {
+      padding: 2% 0;
+      width: 100%;
+      font-size: 2.5rem;
+    }
+    img {
+      max-width: 50%;
+    }
+  }
+
+  .welcome_wrapper {
+    padding-top: 2.5%;
+    width: 100%;
+
+    .welcome_text_box {
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+    }
+
+  }
+
+  .akuelles_wrapper {
+    width: 100%;
+
+    .akl_box {
+      padding: 2.5% 1%;
+      width: 80%;
+      margin: 0 auto;
+      border-bottom: 5px solid $lila;
+      border-left: 5px solid $lila;
+      border-right: 5px solid $lila;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .akt_banner_box {
+      background-color: $lila;
+      padding: 1.25%;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      h4 {
+        @extend .akt_banner_box;
+        color: white;
+
+      }
+    }
+
+    .akt_headline_box {
+      border-bottom: 2px solid $lila;
+    }
+  }
+
+  .content_box {
+    padding-top: 2.5%;
+    width: 80%;
+    margin: 0 auto;
+    img {
+      max-width: 100%;
+    }
+
+    table {
+      border: 4px solid $grau;
+      width: 100%;
+    }
+    th {
+      border-bottom: 4px solid $grau;
+    }
+    td, th {
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+    }
+
+  }
+
+  .w_wrapper {
+
+    padding-top: 2.5%;
+    width: 100%;
+    border-bottom: 2px solid $lila;
+    margin-bottom: 5%;
+
+  }
+
+  footer {
+    position: relative;
+    bottom: 0;
+    background-color: $lila;
+
+    text-align: center;
+    color: white;
+    padding: 2.5%;
+    h4 {
+      background-color: $lila;
+    }
+
+    a,
+    a:focus {
+      color: white;
+      font-size: 2rem;
+    }
+    a:hover {
+      color: $grau;
+      font-size: 2rem;
+    }
+
   }
 
 
-}
