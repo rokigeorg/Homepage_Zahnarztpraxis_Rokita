@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Zahnarztpraxis Rokita</title>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <scrip type="text/javascript" src="js/bootstrap.js"></scrip>
     <scrip type="text/javascript" src="js/bootstrap.min.js"></scrip>
 
@@ -17,59 +20,64 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.css.map">
 
 
-    <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
 
 
 </head>
 <body>
+<div class="header_wrapper">
+    <header>
+        <nav>
+            <div class="nav_h_mobil_box">
+                <a href="#">
+                    <div class="h_menu">
+                        <span class="nav_icons hidden">&#9776</span>
+                        <span class="nav_icons active">&#10006;</span>
+                    </div>
+                </a>
+            </div>
+            <div class="nav_item_box">
+                <a href="index.html">
+                    <div class="i_menu"><span>Home</span></div>
+                </a>
+                <a href="praxis.html">
+                    <div class="i_menu"><span>Praxis</span></div>
+                </a>
+                <a href="team.html">
+                    <div class="i_menu"><span>Team</span></div>
+                </a>
+                <a href="leistungen.html">
+                    <div class="i_menu"><span>Zahnarztliche Leistungen</span></div>
+                </a>
+                <a href="jobs.html">
+                    <div class="i_menu"><span>Jobs</span></div>
+                </a>
+                <a href="kontakt.html">
+                    <div class="i_menu"><span>Kontakt</span></div>
+                </a>
+                <a href="tel:+4935525908">
+                    <div class="i_menu"><span class="nav_infoData">&#9990; 0355 25 908</span></div>
+                </a>
+                <a href="#">
+                    <div class="i_menu"><span class="nav_infoData">&#8962; Thiemstraße 124, 03050 Cottbus</span></div>
+                </a>
+            </div>
+        </nav>
+    </header>
 
-<header>
-    <nav>
-        <div class="nav_h_mobil_box">
-            <a href="#">
-                <div class="h_menu"><span class="nav_icons hidden">&#9776</span><span
-                        class="nav_icons active">&#10006;</span></div>
-            </a>
-        </div>
-        <div class="nav_item_box">
-            <a href="index.html">
-                <div class="i_menu"><span>Home</span></div>
-            </a>
-            <a href="praxis.html">
-                <div class="i_menu"><span>Praxis</span></div>
-            </a>
-            <a href="team.html">
-                <div class="i_menu"><span>Team</span></div>
-            </a>
-            <a href="leistungen.html">
-                <div class="i_menu"><span>Zahnarztliche Leistungen</span></div>
-            </a>
-            <a href="jobs.html">
-                <div class="i_menu"><span>Jobs</span></div>
-            </a>
-            <a href="kontakt.html">
-                <div class="i_menu"><span>Kontakt</span></div>
-            </a>
-            <a href="tel:+4935525908">
-                <div class="i_menu"><span class="nav_infoData">&#9990; 0355 25 908</span></div>
-            </a>
-            <a href="#">
-                <div class="i_menu"><span class="nav_infoData">&#8962; Thiemstraße 124, 03050 Cottbus</span></div>
-            </a>
-        </div>
-    </nav>
+    <div class="header_img_box">
+        <img src="img/teaser_1.jpg" alt="Bild von der Zahnarztpraxis">
+    </div>
 
-</header>
-<div class="header_img_box">
-    <img src="img/teaser_1.jpg" alt="Bild von der Zahnarztpraxis">
+
 </div>
 <div class="logo_wrapper">
     <div class="logo_items">
         <span>&#9990; 0355 25 908</span>
     </div>
     <div class="logo_items">
-        <img src="img/Logo_ZAP_black.png" alt="Logo Zahnarztpraxis Rokita">
+        <img src="img/Logo_ZAP_black.png" id="header_logo" alt="Logo Zahnarztpraxis Rokita">
     </div>
     <div class="logo_items">
         <span>
@@ -90,15 +98,18 @@
             Vielen Dank für Ihr Interesse und Ihr Vertrauen in unsere Praxis.
         </p>
         <p>
-            Frau Dr. med. Veronika Rokita und die Zahnärztin Susann Rokita, sowie das gesamte Team freuen sich Sie als Patient begrüßen zu dürfen. Der Patient steht bei uns im Mittelpunkt, so dass wir eine individuell auf Sie angepasste zahnmedizinische Versorgung bieten können.
-            Unser Ziel ist es in einer angenehmen Atmosphäre Ängste und Schmerzen zunehmen und dem Patienten zu einem strahlenden Lächeln zu verhelfen.
+            Frau Dr. med. Veronika Rokita und die Zahnärztin Susann Rokita, sowie das gesamte Team freuen sich Sie als
+            Patient begrüßen zu dürfen. Der Patient steht bei uns im Mittelpunkt, so dass wir eine individuell auf Sie
+            angepasste zahnmedizinische Versorgung bieten können.
+            Unser Ziel ist es in einer angenehmen Atmosphäre Ängste und Schmerzen zunehmen und dem Patienten zu einem
+            strahlenden Lächeln zu verhelfen.
         </p>
     </div>
 </div>
 
 
 <div class="akuelles_wrapper">
-    
+
     <div class=" akt_banner_box">
         <h4>Aktueller Hinweis für unsere Partienten </h4>
     </div>
@@ -107,42 +118,48 @@
         <div class="akt_headline_box">
             <h4>Urlaubsankündigung</h4>
         </div>
-        
+
         <div class="akt_content_box">
             <p>Wir haben Urlaub vom 1. Jan. - 31. Dez.. Bitte kommen sie uns nächstest Jahr besuchen.</p>
-            <p>Ihre ZAP Rokita</p>    
+            <p>Ihre ZAP Rokita</p>
         </div>
-        
     </div>
-    
+
 </div>
 
 <div class="w_wrapper">
 
-    <div class="content_box">
+    <div class="content_box w_order1">
         <img src="img/zap_2humens.jpg" alt="Bild der beiden Ärzte">
     </div>
 
-    <div class="content_box">
+    <div class="content_box w_order2">
         <h4>Wir behandeln Sie...</h4>
         <h4>Zahnarzt</h4>
         <p>Dr. med Veronika Rokita & Susann Rokita</p>
+
+        <a href="team.html">
+            <button class="btn">Mehr zum Team</button>
+        </a>
     </div>
 </div>
 
 <div class="w_wrapper">
-    <div class="content_box">
+    <div class="content_box w_order2">
         <div id="googleMap" style="width:100%;height:400px;"></div>
     </div>
-    <div class="content_box">
+    <div class="content_box w_order1">
         <h4>Unsere Praxis in der Stadt</h4>
         <p>Die Praxis ist leicht mit dem Auto, zu Fuß oder mit der Straßenbahn zu erreichen.</p>
+        <a href="praxis.html">
+            <button class="btn">Mehr zum Praxis</button>
+        </a>
     </div>
 </div>
 
 
 <div class="w_wrapper">
-    <div class="content_box">
+    <div class="content_box w_order1">
         <table>
             <tr>
                 <th>Wochentag</th>
@@ -192,26 +209,31 @@
 
 
     </div>
-    <div class="content_box">
+    <div class="content_box w_order2">
         <h4>Unsere Sprechzeiten</h4>
-        <p>Vereinbaren Sie jetzt gleich einen Termin. Rufen sie uns an.
-            <a href="tel:+4935525908">Telefon: +49 (0) 355 25 908</a></p>
+        <p>Vereinbaren Sie jetzt gleich einen Termin. Rufen sie uns an.</p>
+        <a href="tel:+4935525908">Telefon: +49 (0) 355 25 908</a>
+        <p>Termine sind auch nach Abspreche außerhalb der Sprechzeiten vereinbarbar.</p>
     </div>
 </div>
 
 
 <div class="w_wrapper">
-    
-    <div class="content_box">
+
+    <div class="content_box w_order2">
         <img src="img/zap_l.jpg" alt="Bild von einer Prothese">
     </div>
-    
-    <div class="content_box"><h4>Unsere zahnärztlichen Leistungen</h4>
-    <p>Wenn ihnen Zähne fehlen dann bauen wir ihnen gern neue Zähne ein. Informieren sie sich über die aktuellsten zähnärztlichen Leistungen die wir ihnen anbieten können.</p>
+
+    <div class="content_box w_order1"><h4>Unsere zahnärztlichen Leistungen</h4>
+        <p>Wenn ihnen Zähne fehlen dann bauen wir ihnen gern neue Zähne ein. Informieren sie sich über die aktuellsten
+            zähnärztlichen Leistungen die wir ihnen anbieten können.</p>
+        <a href="leistungen.html">
+            <button class="btn">Mehr zur Leistung</button>
+        </a>
+
     </div>
-    
-    
-    
+
+
 </div>
 
 
@@ -220,6 +242,7 @@
 </footer>
 
 <script src="js/maps.js"></script>
+<script src="js/image_modul.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuqQPQpXe_E2TMqCi5Rn0J0V8jutN8CDQ&callback=myMap"></script>
 
 
