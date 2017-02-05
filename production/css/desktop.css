@@ -1,6 +1,10 @@
-@media (min-width: 600px) {
+@media (min-width: 600px) and (min-width: 600px) {
   .praxis_img_small {
     max-width: 46%;
+    padding: 2%; } }
+@media (min-width: 600px) {
+  .praxis_img_small {
+    max-width: 96%;
     padding: 2%; }
 
   .picture_box {
@@ -234,7 +238,13 @@
     align-items: flex-end; }
     .w_wrapper .content_box, .w_wrapper_begin .content_box {
       width: 50%; }
+      .w_wrapper .content_box b, .w_wrapper_begin .content_box b {
+        font-family: "Open Sans Condensed", sans-serif;
+        font-size: 0.65rem; }
+      .w_wrapper .content_box br, .w_wrapper_begin .content_box br {
+        font-size: 0.65rem; }
       .w_wrapper .content_box .btn, .w_wrapper_begin .content_box .btn {
+        border-radius: 0;
         font: 100% "Open Sans Condensed", sans-serif;
         color: white;
         background-color: #9900cc;
@@ -242,12 +252,13 @@
       .w_wrapper .content_box img, .w_wrapper_begin .content_box img {
         width: 100%; }
       .w_wrapper .content_box h4, .w_wrapper_begin .content_box h4, .w_wrapper .content_box p, .w_wrapper_begin .content_box p, .w_wrapper .content_box a, .w_wrapper_begin .content_box a {
-        margin-left: 1%; }
+        margin-left: 1%;
+        margin-bottom: 0.25rem; }
       .w_wrapper .content_box a, .w_wrapper_begin .content_box a,
       .w_wrapper .content_box a:focus,
       .w_wrapper_begin .content_box a:focus, .w_wrapper .content_box a:hover, .w_wrapper_begin .content_box a:hover {
         color: black;
-        font-size: 0.75rem; }
+        font-size: 0.65rem; }
       .w_wrapper .content_box table, .w_wrapper_begin .content_box table {
         border: 2px solid #7d7d7d;
         width: 100%; }
@@ -310,7 +321,10 @@
       font-size: 1rem; }
 
   .fullbox_wrapper {
-    padding-top: 2%; }
+    padding-top: 2%;
+    width: 100%; }
+    .fullbox_wrapper br {
+      font-size: 0.65rem; }
     .fullbox_wrapper h3 {
       text-align: center; } }
 

@@ -1,21 +1,29 @@
+@media (max-width: 599px) {
+  @import 'image_modul';
+
   $font-stack: 'Open Sans Condensed', sans-serif;
   $font-color: #fff;
   $lila: #9900cc;
   $grau: #7d7d7d;
   $nav-font-color: white;
+  $font_size_t: 0.65rem;
 
   * {
     font: 100% $font-stack;
     padding: 0;
     margin: 0;
     background-color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
 
     a,
     a:focus,
     a:hover {
       color: $grau;
     }
+  }
+
+  html body {
+    width: 100%;
   }
 
   h2 {
@@ -34,52 +42,55 @@
   .hidden {
     display: none;
   }
+  .header_wrapper {
 
-  header {
-    nav {
-      background-color: $lila;
+    width: 100%;
+    header {
       width: 100%;
-      color: $nav-font-color;
-      font-size: 4rem;
-    }
-    .h_menu {
-      width: 100%;
-      display: flex;
-      justify-content: flex-end;
-      background-color: $lila;
-      padding-right: 2%;
-    }
-    .i_menu {
-      @extend nav;
-      border-bottom: 2px solid white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 7rem;
+      nav {
+        background-color: $lila;
+        width: 100%;
+        color: $nav-font-color;
+      }
+      .h_menu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        background-color: $lila;
+        padding-right: 2%;
+      }
+      .i_menu {
+        @extend nav;
+        border-bottom: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3.5rem;
+      }
 
-    }
+      span {
+        background-color: $lila;
+        font-size: 1.5rem;
+      }
 
-    span {
-      background-color: $lila;
-      font-size: 2.5rem;
-    }
+      .nav_icons {
+        font-size: 2rem;
+      }
 
-    .nav_icons {
-      font-size: 2rem;
-    }
+      .nav_infoData {
+        @extend span;
+        font-size: 1rem;
+      }
 
-    .nav_infoData {
-      @extend span;
-      font-size: 2rem;
-    }
+      a,
+      a:focus,
+      a:hover {
+        color: $nav-font-color;
+      }
+      .nav_item_box {
+        display: block;
+      }
 
-    a,
-    a:focus,
-    a:hover {
-      color: $nav-font-color;
-    }
-    .nav_item_box {
-      display: block;
     }
 
   }
@@ -162,16 +173,27 @@
       max-width: 100%;
     }
 
+    h4, p, a {
+      color: black;
+      margin-bottom: 0.25rem;
+    }
     table {
-      border: 4px solid $grau;
+      border: 2px solid $grau;
       width: 100%;
     }
     th {
-      border-bottom: 4px solid $grau;
+      border-bottom: 2px solid $grau;
+      font-size: $font_size_t;
+
     }
     td, th {
       text-align: left;
-      padding: 8px;
+      padding: 0.75%;
+      font-size: $font_size_t;
+
+      span {
+        font-size: $font_size_t;
+      }
     }
     tr:nth-child(even) {
     }
@@ -187,6 +209,17 @@
 
   }
 
+
+  .fullbox_wrapper {
+    padding-top: 2.5%;
+    width: 80%;
+    margin: 0 auto;
+
+    h3 {
+      text-align: center;
+    }
+  }
+
   footer {
     position: relative;
     bottom: 0;
@@ -197,18 +230,19 @@
     padding: 2.5%;
     h4 {
       background-color: $lila;
+      font-size: 0.75rem;
     }
 
     a,
     a:focus {
       color: white;
-      font-size: 2rem;
+      font-size: 0.75rem;
     }
     a:hover {
       color: $grau;
-      font-size: 2rem;
+      font-size: 0.75rem;
     }
 
   }
 
-
+}

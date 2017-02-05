@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <scrip type="text/javascript" src="js/bootstrap.js"></scrip>
-    <scrip type="text/javascript" src="js/bootstrap.min.js"></scrip>
+    <script type="text/javascript" src="js/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 
@@ -23,17 +24,18 @@
     <link rel="stylesheet" href="css/mobile.css">
     <link rel="stylesheet" href="css/desktop.css">
 
+    <script type="text/javascript" src="js/app.js"></script>
 
 </head>
-<body>
+<body onload="startZAPApp()">
 <div class="header_wrapper">
     <header>
         <nav>
             <div class="nav_h_mobil_box">
                 <a href="#">
                     <div class="h_menu">
-                        <span class="nav_icons hidden">&#9776</span>
-                        <span class="nav_icons active">&#10006;</span>
+                        <span id="nav_menu_icon" class="nav_icons active">&#9776</span>
+                        <span id="nav_closing_icon" class="nav_icons hidden">&#10006;</span>
                     </div>
                 </a>
             </div>
@@ -206,9 +208,8 @@
                 <td></td>
             </tr>
         </table>
-
-
     </div>
+
     <div class="content_box w_order2">
         <h4>Unsere Sprechzeiten</h4>
         <p>Vereinbaren Sie jetzt gleich einen Termin. Rufen sie uns an.</p>
@@ -242,9 +243,7 @@
 </footer>
 
 <script src="js/maps.js"></script>
-<script src="js/image_modul.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuqQPQpXe_E2TMqCi5Rn0J0V8jutN8CDQ&callback=myMap"></script>
-
 
 </body>
 </html>
