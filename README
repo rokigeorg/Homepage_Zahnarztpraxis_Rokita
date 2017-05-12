@@ -1,3 +1,6 @@
 Start SCSS watcher cmd:
 
-sass --watch scss:css
+sass --watch scss:production/css
+
+
+        <img src="img/Logo_ZAP_black.png" id="header_logo" alt="Logo Zahnarztpraxis Rokita">
