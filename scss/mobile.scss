@@ -12,7 +12,6 @@
     font: 100% $font-stack;
     padding: 0;
     margin: 0;
-    background-color: white;
     font-size: 1rem;
 
     a,
@@ -88,11 +87,9 @@
         color: $nav-font-color;
       }
       .nav_item_box {
-        display: block;
+        display: none;
       }
-
     }
-
   }
 
   .header_img_box {
