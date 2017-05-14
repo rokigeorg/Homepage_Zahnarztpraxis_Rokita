@@ -161,16 +161,23 @@
       text-align: center;
       width: 32%;
 
+      .logo_item_addres{
+
+        max-height:50%;
+      }
+
       img {
         width: 100%;
         opacity: 1;
-
       }
 
       span {
         opacity: 1;
+        font-size: 0.6rem;
+      }
 
-        font-size: 0.5rem;
+      br{
+        line-height: 2;
       }
 
     }

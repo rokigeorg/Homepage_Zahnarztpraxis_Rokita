@@ -216,12 +216,16 @@
     .logo_wrapper .logo_items {
       text-align: center;
       width: 32%; }
+      .logo_wrapper .logo_items .logo_item_addres {
+        max-height: 50%; }
       .logo_wrapper .logo_items img {
         width: 100%;
         opacity: 1; }
       .logo_wrapper .logo_items span {
         opacity: 1;
-        font-size: 0.5rem; }
+        font-size: 0.6rem; }
+      .logo_wrapper .logo_items br {
+        line-height: 2; }
 
   #header_logo {
     opacity: 1; }
