@@ -21,6 +21,8 @@ function navAddEventhandler() {
     
     $(".h_menu").on('click',function(){
 
+        console.log("Toggle nav");
+
         var CloseIcon = $( "#nav_closing_icon" );
         var MenuIcon = $( "#nav_menu_icon" );
         var NavContentBox = $(".nav_item_box");
