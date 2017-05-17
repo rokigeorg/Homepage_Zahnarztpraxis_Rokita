@@ -212,10 +212,18 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    padding: 1% 20%; }
+    padding: 1% 10%; }
+    .logo_wrapper .logo_item_imgLogo {
+      min-height: 60px;
+      max-height: 130px;
+      width: 40%;
+      max-width: 340px; }
+      .logo_wrapper .logo_item_imgLogo img {
+        width: 100%;
+        opacity: 1; }
     .logo_wrapper .logo_items {
       text-align: center;
-      width: 32%; }
+      width: 25%; }
       .logo_wrapper .logo_items .logo_item_addres {
         max-height: 50%; }
       .logo_wrapper .logo_items img {

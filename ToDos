@@ -1,8 +1,14 @@
 - gscms backend
 - sitemap anlegen
 - googleMaps set Maker
-- Detail Page zu Leistungen
+- Praxis -> GoogleMaps einbinden
+- Index -> Zahnärztlich Leisungen Teasertext ergänzen
+- Leisungen -> Teasertext ergänzen
+- Team -> in Susis Box Button anlegen "zur Vita"
+- Team -> neue Page für Susi anlegen in der die Vita ihre Vita beschrieben wird
 
+- Leistungen -> Teaser texte ergänzen in den einzelnen Boxen
+- Leisungen ->  Detail Page zu Leistungen erstellen
 
 
 -logo in header auf fix px height setzen
@@ -19,7 +25,6 @@ Für HOME
 
 -in Mobilansicht -> Buttonfarbe auf Index auf lila anpassen
 - in Mobilansicht -> Team: Boxen mittig ausriechtern
-- in Mobilansicht -> Praxis, Leistungen, jobs , kontakt: Naviagtion reparieren
 
 Für PRAXIS
 - 3 Bilder von jedem 1 Behandlungszimmer
@@ -53,5 +58,6 @@ Für JOB
 
 Für KONTAKT
 - Bild vom Telefon
-- Bild vom
+- Bild vom Ulrike am Telefon
+- Bild Susann am Telefon von schräg oben, hinten leichte Unschärfe, Fokus auf Bestellbuch
 
