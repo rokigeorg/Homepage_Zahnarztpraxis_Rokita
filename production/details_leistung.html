@@ -100,12 +100,22 @@
 
 
         <div class="content_box w_order2">
-            <img src="img/img_ph.png" alt="Bild von der professionellen Zahnreinigung">
+            <div class="praxis_img_small">
+                <img src="img/img_ph.png" onclick="openModal();currentSlide(1)" class="img-thumbnail hover-shadow">
+            </div>
+
+            <div class="praxis_img_small">
+                <img src="img/img_ph.png" onclick="openModal();currentSlide(2)" class="img-thumbnail hover-shadow">
+            </div>
         </div>
 
         <div class="content_box w_order1">
             <h4>Page Headline</h4>
             <p>Describtion</p>
+
+            <a href="leistungen.html">
+                <button class="btn">Zurück</button>
+            </a>
         </div>
 
 
@@ -113,12 +123,35 @@
 </div>
 
 
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/img_ph.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/img_ph.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+    </div>
+</div>
+
 <footer>
     <h4>Zahnarztpraxis Rokita | <a href="impressum.html">Impressum</a> 2017</h4>
 </footer>
 
-<script src="js/maps.js"></script>
-
-
+<script src="js/image_modul.js"></script>
+<script src="js/detailsApp.js"></script>
 </body>
 </html>
