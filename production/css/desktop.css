@@ -111,7 +111,8 @@
     * a,
     * a:focus,
     * a:hover {
-      color: #7d7d7d; }
+      color: #7d7d7d;
+      cursor: pointer; }
 
   html body {
     width: 100%; }
@@ -165,7 +166,8 @@
     nav .nav_item_box a:focus,
     nav .nav_item_box a:hover {
       background-color: #9900cc;
-      color: white; }
+      color: white;
+      cursor: pointer; }
     nav .nav_item_box .i_menu {
       flex-basis: 4%;
       background-color: #9900cc;
@@ -247,7 +249,8 @@
         .logo_wrapper .logo_item_v .logo_items a:focus,
         .logo_wrapper .logo_item_v .logo_items a:hover {
           color: #000000;
-          text-decoration: none; }
+          text-decoration: none;
+          cursor: pointer; }
         .logo_wrapper .logo_item_v .logo_items br {
           line-height: 2; }
 
@@ -346,6 +349,16 @@
       border-bottom-left-radius: 10px; }
       .akuelles_wrapper .akl_box .akt_headline_box {
         border-bottom: 2px solid #9900cc; }
+      .akuelles_wrapper .akl_box .akt_content_box p {
+        color: black; }
+        .akuelles_wrapper .akl_box .akt_content_box p .akt_highlight_font {
+          font-size: 0.65rem;
+          color: black; }
+        .akuelles_wrapper .akl_box .akt_content_box p a,
+        .akuelles_wrapper .akl_box .akt_content_box p a:focus, .akuelles_wrapper .akl_box .akt_content_box p a:hover {
+          color: black;
+          font-size: 0.65rem;
+          cursor: pointer; }
 
   footer {
     position: relative;

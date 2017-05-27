@@ -6,6 +6,7 @@
   $font-color: #fff;
   $lila: #9900cc;
   $grau: #7d7d7d;
+  $black: black;
   $nav-font-color: white;
 
   $header_banner_bg: white;
@@ -21,6 +22,8 @@
     a:focus,
     a:hover {
       color: $grau;
+      cursor: pointer;
+
     }
   }
 
@@ -94,6 +97,7 @@
       a:hover {
         background-color: $lila;
         color: $nav-font-color;
+        cursor: pointer;
 
       }
 
@@ -200,7 +204,7 @@
 
             position: relative;
 
-            top:5px;
+            top: 5px;
 
           }
         }
@@ -210,6 +214,7 @@
         a:hover {
           color: #000000;
           text-decoration: none;
+          cursor: pointer;
         }
         br {
           line-height: 2;
@@ -359,6 +364,24 @@
         border-bottom: 2px solid $lila;
       }
 
+      .akt_content_box {
+        p {
+          color: $black;
+
+          .akt_highlight_font {
+            font-size: 0.65rem;
+            color: $black,
+          }
+
+          a,
+          a:focus, a:hover {
+            color: black;
+            font-size: 0.65rem;
+            cursor: pointer;
+          }
+        }
+
+      }
     }
 
   }
