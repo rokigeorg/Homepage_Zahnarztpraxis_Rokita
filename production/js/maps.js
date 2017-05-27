@@ -5,6 +5,8 @@ function initMap() {
     var myCenter = new google.maps.LatLng(51.745520,14.326960);
     var mapCanvas = document.getElementById("googleMap");
 
+    console.log(mapCanvas)
+
     var mapStyles = [
         {
             "elementType": "geometry",
@@ -195,8 +197,9 @@ function initMap() {
     var mapOptions = {center: myCenter, zoom: 13,disableDefaultUI: true, scrollwheel: false , styles: mapStyles };
     var map = new google.maps.Map(mapCanvas, mapOptions);
 
-    //var marker = new google.maps.Marker({position:myCenter, icon:'./img/Sprits_ZAP.png'});
-    //marker.setMap(map);
+    console.log("in maps", map);
+    var marker = new google.maps.Marker({position:myCenter, icon:'./img/Zahn_maker_k.png'});
+    marker.setMap(map);
 }
 
 
