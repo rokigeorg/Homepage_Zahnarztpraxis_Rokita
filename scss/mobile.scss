@@ -51,6 +51,12 @@
         background-color: $lila;
         width: 100%;
         color: $nav-font-color;
+
+        a{
+          text-decoration: none;
+          cursor: pointer;
+        }
+
       }
       .h_menu {
         width: 100%;
@@ -58,6 +64,8 @@
         justify-content: flex-end;
         background-color: $lila;
         padding-right: 2%;
+        padding-top: 10px;
+        padding-bottom: 10px;
       }
       .i_menu {
         @extend nav;
@@ -108,6 +116,7 @@
     flex-direction: column;
     text-align: center;
     border-bottom: 2px solid $lila;
+    margin-top: 20px;
 
     .logo_items {
       padding: 2% 0;
@@ -176,6 +185,14 @@
       color: black;
       margin-bottom: 0.25rem;
     }
+    .btn {
+      border-radius: 0;
+      font: 100% $font-stack;
+      color: $nav-font-color;
+      background-color: $lila;
+      padding: 3%;
+    }
+
     table {
       border: 2px solid $grau;
       width: 100%;

@@ -1,19 +1,17 @@
 - gscms backend
 - sitemap anlegen
 - Öffnungszeiten -> Schema.org anlegen via google validator
+- Logo im header austaschen
 - googleMaps set Maker
-- Praxis -> GoogleMaps einbinden
-- Index -> Zahnärztlich Leisungen Teasertext ergänzen
-- Leisungen -> Teasertext ergänzen
-- Team -> in Susis Box Button anlegen "zur Vita"
-- Team -> neue Page für Susi anlegen in der die Vita ihre Vita beschrieben wird
-- Team-> Name fett  und schrift größer
+- Praxis, Kontakt -> GoogleMaps in Wrapper für mobileansicht packen
 
 - Leistungen -> Teaser texte ergänzen in den einzelnen Boxen
 - Leisungen ->  Detail Page zu Leistungen erstellen
+- Jobs -> height einrichten
 
--in Mobilansicht -> Buttonfarbe auf Index auf lila anpassen
+
 - in Mobilansicht -> Team: Boxen mittig ausriechtern
+- in Mobilansicht -> Praxis: Modal anpassen
 
 Fotos:
 
