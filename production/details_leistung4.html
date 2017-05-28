@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Zahnarztpraxis Rokita</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <script type="text/javascript" src="js/jquery/2.1.3/jquery.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css.map">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css.map">
+
+
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
+
+    <script type="text/javascript" src="js/app.js"></script>
+
+
+</head>
+<body onload="zapApp()">
+<div class="header_wrapper">
+    <header>
+        <nav>
+            <div class="nav_h_mobil_box">
+                <a href="#">
+                    <div class="h_menu">
+                        <span id="nav_menu_icon" class="nav_icons active">&#9776</span>
+                        <span id="nav_closing_icon" class="nav_icons hidden">&#10006;</span>
+                    </div>
+                </a>
+            </div>
+            <div class="nav_item_box">
+                <a href="index.html">
+                    <div class="i_menu"><span>Home</span></div>
+                </a>
+                <a href="praxis.html">
+                    <div class="i_menu"><span>Praxis</span></div>
+                </a>
+                <a href="team.html">
+                    <div class="i_menu"><span>Team</span></div>
+                </a>
+                <a href="leistungen.html">
+                    <div class="i_menu"><span>Leistungen</span></div>
+                </a>
+                <a href="jobs.html">
+                    <div class="i_menu"><span>Jobs</span></div>
+                </a>
+                <a href="kontakt.html">
+                    <div class="i_menu"><span>Kontakt</span></div>
+                </a>
+                <a href="tel:+4935525908">
+                    <div class="i_menu"><span class="nav_infoData">&#9990; 0355 25 908</span></div>
+                </a>
+                <a href="#">
+                    <div class="i_menu"><span class="nav_infoData">&#8962; Thiemstraße 124, 03050 Cottbus</span></div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="header_img_box">
+        <img src="img/teaser_3.png" alt="Bild von der Zahnarztpraxis">
+    </div>
+
+
+</div>
+
+
+<div class="logo_headerBg">
+</div>
+
+
+<div class="logo_wrapper">
+
+    <div class="logo_item_v">
+        <div class="logo_item_imgLogo">
+            <img src="img/Logo_ZAP_black.png" id="header_logo" alt="Logo Zahnarztpraxis Rokita">
+        </div>
+    </div>
+
+    <div class="logo_item_v ">
+        <div class="logo_items logo_item_l">
+            <a href="tel:+4935525908"><span><large>&#9990;</large> 0355 25 908</span></a>
+        </div>
+
+        <div class="logo_items logo_item_r">
+
+            <div class="logo_item_addres">
+            <span>
+                 <large>&#8962;</large> Thiemstraße 124,
+            </span>
+            <span>
+                03050 Cottbus
+            </span>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<div class="fullbox_wrapper">
+    <h3>Endodontie (Wurzelkanalbehandlungen)</h3>
+    <div class="w_wrapper">
+
+
+        <div class="content_box w_order2">
+            <div class="praxis_img_small">
+                <img src="img/img_ph.png" onclick="openModal();currentSlide(1)" class="img-thumbnail hover-shadow">
+            </div>
+
+            <div class="praxis_img_small">
+                <img src="img/img_ph.png" onclick="openModal();currentSlide(2)" class="img-thumbnail hover-shadow">
+            </div>
+        </div>
+
+        <div class="content_box w_order1">
+            <p>Die Wurzelkanalbehandlung ist die letzte Rettung für den Zahn.</p>
+
+            <p>Wurzelkanalbehandlungen werden bei entzündeten Zähnen durchgeführt. Zu einer Entzündung kommt es meist durch eine Karies oder ein Trauma, es können aber auch andere Ursachen dazu führen, dass sich die Pulpa (Zahnnerv) entzündet. </p>
+
+            <p>Die erkrankte oder bereits abgestorbene Pulpa wird bei einer Wurzelkanalbehandlung mit sterilen Instrumenten entfernt. Die Wurzelkanäle werden gereinigt und erweitert und zum Schluss dicht verschlossen. </p>
+
+            <p>Da meist eine Entzündung vorliegt, benötigt man in der Regel 2-3 Termine um Schmerzfreiheit des Zahnes zu erreichen. </p>
+
+            <p>Die Prognose für wurzelkanalbehandelte Zähne ist meist gut.
+                Jedoch ist es sinnvoll, je nach individuellen Befund, den Zahn mit einer Teilkrone oder Krone zu versorgen.
+            </p>
+
+            <a href="leistungen.html">
+                <button class="btn">Zurück</button>
+            </a>
+        </div>
+
+
+    </div>
+</div>
+
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="img/img_ph.png" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="img/img_ph.png" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <h4>Zahnarztpraxis Rokita | <a href="impressum.html">Impressum</a> 2017</h4>
+</footer>
+
+<script src="js/image_modul.js"></script>
+<script src="js/detailsApp.js"></script>
+</body>
+</html>

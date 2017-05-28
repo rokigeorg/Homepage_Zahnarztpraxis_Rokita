@@ -273,7 +273,7 @@
 
       b {
         font-family: $font-stack;
-        font-size: 0.65rem;
+        font-size: 0.75rem;
       }
       br {
         font-size: 0.65rem;
@@ -318,6 +318,13 @@
 
       }
       tr:nth-child(even) {
+      }
+      ul {
+        list-style-type: none;
+        margin-left: 1%;
+        li {
+          font-size: 0.65rem;
+        }
       }
     }
   }

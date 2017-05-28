@@ -111,7 +111,8 @@
     * a,
     * a:focus,
     * a:hover {
-      color: #7d7d7d; }
+      color: #7d7d7d;
+      cursor: pointer; }
 
   html body {
     width: 100%; }
@@ -161,7 +162,8 @@
       .header_wrapper header a,
       .header_wrapper header a:focus,
       .header_wrapper header a:hover {
-        color: white; }
+        color: white;
+        cursor: pointer; }
       .header_wrapper header .nav_item_box {
         display: none; }
 
@@ -228,13 +230,18 @@
       width: 100%; }
     .content_box th {
       border-bottom: 2px solid #7d7d7d;
-      font-size: 0.65rem; }
+      font-size: 1rem; }
     .content_box td, .content_box th {
       text-align: left;
       padding: 0.75%;
-      font-size: 0.65rem; }
+      font-size: 1rem; }
       .content_box td span, .content_box td .header_wrapper header .nav_infoData, .header_wrapper header .content_box td .nav_infoData, .content_box th span, .content_box th .header_wrapper header .nav_infoData, .header_wrapper header .content_box th .nav_infoData {
-        font-size: 0.65rem; }
+        font-size: 1rem; }
+    .content_box ul {
+      list-style-type: none;
+      margin-left: 1%; }
+      .content_box ul li {
+        font-size: 1rem; }
 
   .w_wrapper {
     padding-top: 2.5%;
@@ -262,9 +269,11 @@
     footer a,
     footer a:focus {
       color: white;
-      font-size: 0.75rem; }
+      font-size: 0.75rem;
+      cursor: pointer; }
     footer a:hover {
       color: #7d7d7d;
-      font-size: 0.75rem; } }
+      font-size: 0.75rem;
+      cursor: pointer; } }
 
 /*# sourceMappingURL=mobile.css.map */

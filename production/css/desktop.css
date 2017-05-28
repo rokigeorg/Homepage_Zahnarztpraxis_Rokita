@@ -287,7 +287,7 @@
       padding-left: 20px; }
       .w_wrapper .content_box b, .w_wrapper_begin .content_box b {
         font-family: "Open Sans Condensed", sans-serif;
-        font-size: 0.65rem; }
+        font-size: 0.75rem; }
       .w_wrapper .content_box br, .w_wrapper_begin .content_box br {
         font-size: 0.65rem; }
       .w_wrapper .content_box .btn, .w_wrapper_begin .content_box .btn {
@@ -317,6 +317,11 @@
         font-size: 0.75rem; }
         .w_wrapper .content_box td span, .w_wrapper_begin .content_box td span, .w_wrapper .content_box th span, .w_wrapper_begin .content_box th span {
           font-size: 0.75rem; }
+      .w_wrapper .content_box ul, .w_wrapper_begin .content_box ul {
+        list-style-type: none;
+        margin-left: 1%; }
+        .w_wrapper .content_box ul li, .w_wrapper_begin .content_box ul li {
+          font-size: 0.65rem; }
 
   .w_order1 {
     order: 1; }
