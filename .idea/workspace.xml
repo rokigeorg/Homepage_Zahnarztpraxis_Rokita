@@ -2,41 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2238fde9-92a1-4e71-b247-561dd2fcea8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/praxis_1.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0014x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0080x als Smartobjekt-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0094x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0185x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0233x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0245x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0252x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0260x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0263x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0269x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0283x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0302x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0313x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0319x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0337x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0348x als Smartobjekt-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/_MG_0364 als Smartobjekt-1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/team_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/team_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/team_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/team_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/team_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/team_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/team_6.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDos" afterPath="$PROJECT_DIR$/ToDos" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/mobile.css" afterPath="$PROJECT_DIR$/production/css/mobile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/mobile.css.map" afterPath="$PROJECT_DIR$/production/css/mobile.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/details_leistung.html" afterPath="$PROJECT_DIR$/production/details_leistung.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/details_leistung2.html" afterPath="$PROJECT_DIR$/production/details_leistung2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/details_leistung3.html" afterPath="$PROJECT_DIR$/production/details_leistung3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/details_leistung4.html" afterPath="$PROJECT_DIR$/production/details_leistung4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/details_leistung5.html" afterPath="$PROJECT_DIR$/production/details_leistung5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/details_leistung7.html" afterPath="$PROJECT_DIR$/production/details_leistung7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/index.html" afterPath="$PROJECT_DIR$/production/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/kontakt.html" afterPath="$PROJECT_DIR$/production/kontakt.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/leistungen.html" afterPath="$PROJECT_DIR$/production/leistungen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/praxis.html" afterPath="$PROJECT_DIR$/production/praxis.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/team.html" afterPath="$PROJECT_DIR$/production/team.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/mobile.scss" afterPath="$PROJECT_DIR$/scss/mobile.scss" />
     </list>
     <ignored path="Zahnarztpraxis_Rokita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,11 +57,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="leistungen.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/production/leistungen.html">
+          <file leaf-file-name="team.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/production/team.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="191">
-                  <caret line="123" column="155" selection-start-line="123" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+                <state relative-caret-position="175">
+                  <caret line="183" column="28" selection-start-line="183" selection-start-column="28" selection-end-line="183" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -90,48 +70,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/production/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
+                <state relative-caret-position="686">
                   <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="details_leistung7.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/production/details_leistung7.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="details_leistung3.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/production/details_leistung3.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="166">
-                  <caret line="146" column="40" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="kontakt.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/production/kontakt.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="191">
-                  <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -229,7 +169,6 @@
         <option value="$PROJECT_DIR$/scss/desktop.scss" />
         <option value="$PROJECT_DIR$/scss/mobile.scss" />
         <option value="$PROJECT_DIR$/production/praxis.html" />
-        <option value="$PROJECT_DIR$/production/team.html" />
         <option value="$PROJECT_DIR$/production/details_leistung2.html" />
         <option value="$PROJECT_DIR$/production/details_leistung4.html" />
         <option value="$PROJECT_DIR$/production/details_leistung5.html" />
@@ -238,9 +177,10 @@
         <option value="$PROJECT_DIR$/production/details_leistung.html" />
         <option value="$PROJECT_DIR$/production/details_leistung3.html" />
         <option value="$PROJECT_DIR$/production/kontakt.html" />
-        <option value="$PROJECT_DIR$/ToDos" />
         <option value="$PROJECT_DIR$/production/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ToDos" />
+        <option value="$PROJECT_DIR$/production/team.html" />
       </list>
     </option>
   </component>
@@ -464,16 +404,16 @@
       <workItem from="1494970991667" duration="6708000" />
       <workItem from="1495282533693" duration="8741000" />
       <workItem from="1495523210517" duration="597000" />
-      <workItem from="1495649950838" duration="25082000" />
+      <workItem from="1495649950838" duration="26143000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151882000" />
+    <option name="totallyTimeSpent" value="152943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1779" height="1067" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2020757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10592976" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -484,7 +424,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26448894" sideWeight="0.496337" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26448894" sideWeight="0.496337" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -791,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/team.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="168" column="38" selection-start-line="168" selection-start-column="38" selection-end-line="168" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/details_leistung2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -873,6 +805,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ToDos">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -881,18 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/index.html">
+    <entry file="file://$PROJECT_DIR$/production/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="175">
+          <caret line="183" column="28" selection-start-line="183" selection-start-column="28" selection-end-line="183" selection-end-column="28" />
           <folding />
         </state>
       </provider>
