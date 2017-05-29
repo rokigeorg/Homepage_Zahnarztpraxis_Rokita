@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2238fde9-92a1-4e71-b247-561dd2fcea8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/team_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/team_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/team_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/team_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/team_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/team_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/team_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/zap_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/zap_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/zap_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/zap_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/production/img/zap_5.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_5.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/production/img/fotoshoot_zap/zap_6.jpg" afterPath="$PROJECT_DIR$/production/img/zap_6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ToDos" afterPath="$PROJECT_DIR$/ToDos" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/desktop.css" afterPath="$PROJECT_DIR$/production/css/desktop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/desktop.css.map" afterPath="$PROJECT_DIR$/production/css/desktop.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/image_modul.css" afterPath="$PROJECT_DIR$/production/css/image_modul.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/mobile.css" afterPath="$PROJECT_DIR$/production/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/css/mobile.css.map" afterPath="$PROJECT_DIR$/production/css/mobile.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/details_leistung3.html" afterPath="$PROJECT_DIR$/production/details_leistung3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/details_leistung6.html" afterPath="$PROJECT_DIR$/production/details_leistung6.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/leistungen.html" afterPath="$PROJECT_DIR$/production/leistungen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/production/team.html" afterPath="$PROJECT_DIR$/production/team.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/desktop.scss" afterPath="$PROJECT_DIR$/scss/desktop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/image_modul.scss" afterPath="$PROJECT_DIR$/scss/image_modul.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/mobile.scss" afterPath="$PROJECT_DIR$/scss/mobile.scss" />
     </list>
     <ignored path="Zahnarztpraxis_Rokita.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,22 +58,29 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ToDos" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ToDos" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ToDos">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="team.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="team.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/production/team.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="183" column="28" selection-start-line="183" selection-start-column="28" selection-end-line="183" selection-end-column="28" />
-                  <folding />
+                <state relative-caret-position="226">
+                  <caret line="190" column="10" selection-start-line="190" selection-start-column="10" selection-end-line="190" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -70,8 +88,28 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/production/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="686">
+                <state relative-caret-position="-1699">
                   <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="leistungen.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/production/leistungen.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="222">
+                  <caret line="199" column="27" selection-start-line="199" selection-start-column="27" selection-end-line="199" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="details_leistung6.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/production/details_leistung6.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="717">
+                  <caret line="159" column="41" selection-start-line="159" selection-start-column="41" selection-end-line="159" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -81,11 +119,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="mobile.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="mobile.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/mobile.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="image_modul.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/image_modul.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -94,8 +142,8 @@
           <file leaf-file-name="desktop.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/desktop.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="206">
-                  <caret line="79" column="9" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="9" />
+                <state relative-caret-position="589">
+                  <caret line="460" column="3" selection-start-line="460" selection-start-column="3" selection-end-line="460" selection-end-column="3" />
                   <folding />
                 </state>
               </provider>
@@ -155,7 +203,6 @@
         <option value="$PROJECT_DIR$/production/paxis.html" />
         <option value="$PROJECT_DIR$/production/css/mobile.css" />
         <option value="$PROJECT_DIR$/production/js/image_modul.js" />
-        <option value="$PROJECT_DIR$/scss/image_modul.scss" />
         <option value="$PROJECT_DIR$/production/css/desktop.css" />
         <option value="$PROJECT_DIR$/production/js/mapStlye" />
         <option value="$PROJECT_DIR$/README" />
@@ -165,22 +212,23 @@
         <option value="$PROJECT_DIR$/production/js/maps.js" />
         <option value="$PROJECT_DIR$/production/impressum.html" />
         <option value="$PROJECT_DIR$/production/jobs.html" />
-        <option value="$PROJECT_DIR$/production/details_leistung6.html" />
-        <option value="$PROJECT_DIR$/scss/desktop.scss" />
-        <option value="$PROJECT_DIR$/scss/mobile.scss" />
         <option value="$PROJECT_DIR$/production/praxis.html" />
         <option value="$PROJECT_DIR$/production/details_leistung2.html" />
         <option value="$PROJECT_DIR$/production/details_leistung4.html" />
         <option value="$PROJECT_DIR$/production/details_leistung5.html" />
         <option value="$PROJECT_DIR$/production/details_leistung7.html" />
-        <option value="$PROJECT_DIR$/production/leistungen.html" />
         <option value="$PROJECT_DIR$/production/details_leistung.html" />
-        <option value="$PROJECT_DIR$/production/details_leistung3.html" />
         <option value="$PROJECT_DIR$/production/kontakt.html" />
         <option value="$PROJECT_DIR$/production/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/ToDos" />
+        <option value="$PROJECT_DIR$/production/details_leistung3.html" />
+        <option value="$PROJECT_DIR$/production/leistungen.html" />
+        <option value="$PROJECT_DIR$/production/details_leistung6.html" />
+        <option value="$PROJECT_DIR$/scss/mobile.scss" />
         <option value="$PROJECT_DIR$/production/team.html" />
+        <option value="$PROJECT_DIR$/ToDos" />
+        <option value="$PROJECT_DIR$/scss/desktop.scss" />
+        <option value="$PROJECT_DIR$/scss/image_modul.scss" />
       </list>
     </option>
   </component>
@@ -257,6 +305,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zahnarztpraxis_Rokita" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zahnarztpraxis_Rokita" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="production" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -275,7 +337,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -404,16 +466,16 @@
       <workItem from="1494970991667" duration="6708000" />
       <workItem from="1495282533693" duration="8741000" />
       <workItem from="1495523210517" duration="597000" />
-      <workItem from="1495649950838" duration="26143000" />
+      <workItem from="1495649950838" duration="29020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152943000" />
+    <option name="totallyTimeSpent" value="155820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1779" height="1067" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2020757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10592976" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -424,7 +486,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32830626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26448894" sideWeight="0.496337" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26448894" sideWeight="0.496337" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -583,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/image_modul.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/img/img_ph.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -705,22 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/details_leistung6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="138" column="12" selection-start-line="138" selection-start-column="12" selection-end-line="138" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/desktop.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/praxis.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -757,22 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/leistungen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="123" column="155" selection-start-line="123" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production/details_leistung.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
@@ -785,14 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="177" column="40" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/details_leistung3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="146" column="40" selection-start-line="146" selection-start-column="40" selection-end-line="146" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -813,26 +828,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/index.html">
+    <entry file="file://$PROJECT_DIR$/production/details_leistung3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        <state relative-caret-position="516">
+          <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ToDos">
+    <entry file="file://$PROJECT_DIR$/production/leistungen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="222">
+          <caret line="199" column="27" selection-start-line="199" selection-start-column="27" selection-end-line="199" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/details_leistung6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="159" column="41" selection-start-line="159" selection-start-column="41" selection-end-line="159" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/production/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1699">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production/team.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="183" column="28" selection-start-line="183" selection-start-column="28" selection-end-line="183" selection-end-column="28" />
+        <state relative-caret-position="226">
+          <caret line="190" column="10" selection-start-line="190" selection-start-column="10" selection-end-line="190" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ToDos">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/desktop.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="460" column="3" selection-start-line="460" selection-start-column="3" selection-end-line="460" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/image_modul.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

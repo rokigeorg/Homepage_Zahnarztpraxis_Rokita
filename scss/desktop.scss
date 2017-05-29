@@ -433,5 +433,32 @@
     }
   }
 
+
+  .praxis_img_small {
+    max-width: 46%;
+    padding: 2%;
+  }
+
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+    background: #000;
+  }
+
 }
 

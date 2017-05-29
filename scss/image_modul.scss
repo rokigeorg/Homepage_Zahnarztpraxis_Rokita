@@ -1,22 +1,15 @@
 
-@media (min-width: 600px) {
-  .praxis_img_small {
-    max-width: 46%;
-    padding: 2%;
-  }
+.praxis_img_small {
+  max-width: 96%;
+  padding: 2%;
 }
 
-  .praxis_img_small {
-    max-width: 96%;
-    padding: 2%;
-  }
-
-
-.picture_box{
+.picture_box {
   display: flex;
   flex-wrap: wrap;
 
 }
+
 /* The Modal (background) */
 .modal {
   display: none;
@@ -35,7 +28,7 @@
 .modal-content {
   position: relative;
   background-color: #fefefe;
-  margin: auto;
+  margin: 20% auto;
   padding: 0;
   width: 90%;
   max-width: 1200px;
@@ -47,7 +40,7 @@
   position: absolute;
   top: 10px;
   right: 25px;
-  font-size: 35px;
+  font-size: 2.5rem;
   font-weight: bold;
   background: #000;
 }
@@ -108,7 +101,6 @@
   padding: 2px 16px;
   color: white;
 }
-
 
 .active,
 .demo:hover {
