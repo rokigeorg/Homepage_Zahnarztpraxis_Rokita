@@ -5,7 +5,7 @@
       <paths name="AWS_Webserv_Oaked_Frankfurt">
         <serverdata>
           <mappings>
-            <mapping deploy="/var/www/html/zap" local="$PROJECT_DIR$/production" web="/" />
+            <mapping deploy="/var/www/html/zap" local="$PROJECT_DIR$/production" web="/zap/" />
           </mappings>
         </serverdata>
       </paths>
