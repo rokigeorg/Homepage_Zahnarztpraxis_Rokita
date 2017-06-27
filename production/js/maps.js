@@ -198,7 +198,7 @@ function initMap() {
     var map = new google.maps.Map(mapCanvas, mapOptions);
 
     console.log("in maps", map);
-    var marker = new google.maps.Marker({position:myCenter, icon:'./img/Zahn_maker_k.png'});
+    var marker = new google.maps.Marker({position:myCenter, icon:'./img/ZAP_Maker3.png'});
     marker.setMap(map);
 }
 

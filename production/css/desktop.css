@@ -194,7 +194,7 @@
 
   .logo_headerBg {
     z-index: 2;
-    height: 150px;
+    height: 161px;
     background-color: white;
     position: absolute;
     top: 0;
@@ -218,7 +218,7 @@
       .logo_wrapper .logo_item_v .logo_item_imgLogo {
         min-height: 60px;
         max-height: 90px;
-        width: 40%;
+        width: 100%;
         max-width: 300px; }
         .logo_wrapper .logo_item_v .logo_item_imgLogo img {
           width: 100%;
