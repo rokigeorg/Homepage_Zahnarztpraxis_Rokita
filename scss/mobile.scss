@@ -1,10 +1,11 @@
 @media (max-width: 599px) {
-  @import 'image_modul';
+  @import 'imageModul';
 
   $font-stack: 'Open Sans Condensed', sans-serif;
   $font-color: #fff;
   $lila: #9900cc;
   $grau: #7d7d7d;
+  $black: black;
   $nav-font-color: white;
   $font_size_t: 1rem;
 
@@ -242,6 +243,44 @@
     h3 {
       text-align: center;
     }
+
+    p{
+      br {
+        font-size: 0.65rem;
+      }
+    }
+
+    h3 {
+      text-align: center;
+    }
+    h5 {
+      font-size: 0.65rem;
+      color: $black;
+      font-style: italic;
+    }
+    ul{
+      padding-left: 4.5%;
+      li{
+        font-size: 0.65rem;
+      }
+    }
+    ol{
+      padding-left: 4.5%;
+      li{
+        font-size: 0.65rem;
+      }
+    }
+
+    a,
+    a:focus,
+    a:hover {
+      color: $grau;
+      cursor: pointer;
+
+    }
+
+
+
   }
 
   footer {

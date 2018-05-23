@@ -1,4 +1,20 @@
-Start SCSS watcher cmd:
+# Homepage created with HTML5,CSS3 and all the fun Web Stuff
 
-sass --watch scss:production/css
+## Install Gulp (global)
+```sudo npm install --global gulp ```
+If you have not already installed. You need it to run the tasks to cross compile the scss.
+
+## Install Depenencies
+ ``` npm install ```
+ All dependencies are listed in the package.json file.
+
+
+## Run Gulp Tasks
+To compile the changes you made you can simply run:
+``` gulp ```
+By default gulp starts two tasks, the scss file watcher and the browser sync task.
+
+## Old File watcher (Not needed, but may work for someone too.)
+Start SCSS watcher cmd:
+``` sass --watch scss:production/css ```
 
