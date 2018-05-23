@@ -2,7 +2,6 @@
 ### Sass template
 .sass-cache/
 *.css.map
-README
 ToDos
 node_modules
 

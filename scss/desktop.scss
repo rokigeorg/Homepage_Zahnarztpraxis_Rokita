@@ -1,6 +1,6 @@
 @media (min-width: 600px) {
 
-  @import 'image_modul';
+  @import 'imageModul';
 
   $font-stack: 'Open Sans Condensed', sans-serif;
   $font-color: #fff;
@@ -426,11 +426,37 @@
       font-size: 0.65rem;
     }
 
+    p{
+      br {
+        font-size: 0.65rem;
+      }
+    }
+
     h3 {
       text-align: center;
     }
+    h5 {
+      font-size: 0.65rem;
+    color: $black;
+      font-style: italic;
+    }
+    ul{
+      padding-left: 2.5%;
+      li{
+              font-size: 0.65rem;
+      }
+    }
+    ol{
+      padding-left: 2.5%;
+      li{
+        font-size: 0.65rem;
+      }
+    }
 
-    a,
+    a {
+      color: $grau;
+      font-size: 0.65rem;
+    }
     a:focus {
       color: white;
       font-size: 0.65rem;
@@ -441,7 +467,6 @@
     }
 
   }
-
 
   .praxis_img_small {
     max-width: 100%;

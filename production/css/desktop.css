@@ -2,11 +2,9 @@
   .praxis_img_small {
     max-width: 96%;
     padding: 2%; }
-
   .picture_box {
     display: flex;
     flex-wrap: wrap; }
-
   /* The Modal (background) */
   .modal {
     display: none;
@@ -19,7 +17,6 @@
     height: 100%;
     overflow: auto;
     background-color: black; }
-
   /* Modal Content */
   .modal-content {
     position: relative;
@@ -28,7 +25,6 @@
     padding: 0;
     width: 90%;
     max-width: 1200px; }
-
   /* The Close Button */
   .close {
     color: white;
@@ -38,16 +34,13 @@
     font-size: 2.5rem;
     font-weight: bold;
     background: #000; }
-
   .close:hover,
   .close:focus {
     color: white;
     text-decoration: none;
     cursor: pointer; }
-
   .mySlides {
     display: none; }
-
   /* Next & previous buttons */
   .prev,
   .next {
@@ -64,17 +57,14 @@
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none; }
-
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px; }
-
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8); }
-
   /* Number text (1/3 etc) */
   .numbertext {
     color: black;
@@ -82,23 +72,18 @@
     padding: 8px 12px;
     position: absolute;
     top: 0; }
-
   .caption-container {
     text-align: center;
     background-color: black;
     padding: 2px 16px;
     color: white; }
-
   .active,
   .demo:hover {
     opacity: 1; }
-
   img.hover-shadow {
     transition: 0.3s; }
-
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
   * {
     font: 100% "Open Sans Condensed", sans-serif;
     padding: 0;
@@ -109,44 +94,32 @@
     * a:hover {
       color: #7d7d7d;
       cursor: pointer; }
-
   html body {
     width: 100%; }
-
   h2 {
     font-size: 2rem; }
-
   h3 {
     font-size: 1.5rem; }
-
   h4 {
     font-size: 1rem; }
-
   p {
     font-size: 0.65rem; }
-
   address {
     font-size: 1rem; }
     address br {
       font-size: 0.65rem; }
-
   .active {
     display: block; }
-
   .hidden {
     display: none; }
-
   .header_wrapper {
     width: 100%;
     display: flex;
     flex-direction: column; }
-
   header {
     order: 2; }
-
   .header_img_box {
     order: 1; }
-
   nav .nav_h_mobil_box {
     display: none; }
   nav .nav_item_box {
@@ -179,7 +152,6 @@
         font-size: 0.8rem; }
   nav .nav_infoData {
     display: none; }
-
   .header_img_box {
     width: 100%;
     height: 450px;
@@ -191,7 +163,6 @@
       flex-shrink: 0;
       min-width: 100%;
       min-height: 100%; }
-
   .logo_headerBg {
     z-index: 2;
     height: 161px;
@@ -200,7 +171,6 @@
     top: 0;
     width: 100%;
     opacity: 0.6; }
-
   .logo_wrapper {
     width: 100%;
     z-index: 3;
@@ -249,10 +219,8 @@
           cursor: pointer; }
         .logo_wrapper .logo_item_v .logo_items br {
           line-height: 2; }
-
   #header_logo {
     opacity: 1; }
-
   .welcome_wrapper {
     margin: 2% 20%; }
     .welcome_wrapper .welcome_text_box {
@@ -264,10 +232,8 @@
       .welcome_wrapper .welcome_text_box p {
         margin: 8% 0;
         text-align: left; }
-
   .w_wrapper_begin {
     align-items: flex-start; }
-
   .w_wrapper, .w_wrapper_begin {
     margin-right: 20%;
     margin-left: 20%;
@@ -318,13 +284,10 @@
         margin-left: 1%; }
         .w_wrapper .content_box ul li, .w_wrapper_begin .content_box ul li {
           font-size: 0.65rem; }
-
   .w_order1 {
     order: 1; }
-
   .w_order2 {
     order: 2; }
-
   .akuelles_wrapper {
     margin-right: 20%;
     margin-left: 20%;
@@ -360,7 +323,6 @@
           color: black;
           font-size: 0.65rem;
           cursor: pointer; }
-
   footer {
     position: relative;
     bottom: 0;
@@ -380,19 +342,39 @@
     footer a:hover {
       color: #7d7d7d;
       font-size: 0.65rem; }
-
   .fullbox_wrapper {
     padding-top: 8%;
     width: 100%; }
     .fullbox_wrapper br {
       font-size: 0.65rem; }
+    .fullbox_wrapper p br {
+      font-size: 0.65rem; }
     .fullbox_wrapper h3 {
       text-align: center; }
-
+    .fullbox_wrapper h5 {
+      font-size: 0.65rem;
+      color: black;
+      font-style: italic; }
+    .fullbox_wrapper ul {
+      padding-left: 2.5%; }
+      .fullbox_wrapper ul li {
+        font-size: 0.65rem; }
+    .fullbox_wrapper ol {
+      padding-left: 2.5%; }
+      .fullbox_wrapper ol li {
+        font-size: 0.65rem; }
+    .fullbox_wrapper a {
+      color: #7d7d7d;
+      font-size: 0.65rem; }
+    .fullbox_wrapper a:focus {
+      color: white;
+      font-size: 0.65rem; }
+    .fullbox_wrapper a:hover {
+      color: #7d7d7d;
+      font-size: 0.65rem; }
   .praxis_img_small {
     max-width: 100%;
     padding: 2%; }
-
   /* Modal Content */
   .modal-content {
     position: relative;
@@ -401,7 +383,6 @@
     padding: 0;
     width: 90%;
     max-width: 1200px; }
-
   /* The Close Button */
   .close {
     color: white;
@@ -411,5 +392,3 @@
     font-size: 35px;
     font-weight: bold;
     background: #000; } }
-
-/*# sourceMappingURL=desktop.css.map */

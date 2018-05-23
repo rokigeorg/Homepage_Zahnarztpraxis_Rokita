@@ -10,6 +10,7 @@ If you have not already installed. You need it to run the tasks to cross compile
 
 
 ## Run Gulp Tasks
+To compile the changes you made you can simply run:
 ``` gulp ```
 By default gulp starts two tasks, the scss file watcher and the browser sync task.
 

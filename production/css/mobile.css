@@ -2,11 +2,9 @@
   .praxis_img_small {
     max-width: 96%;
     padding: 2%; }
-
   .picture_box {
     display: flex;
     flex-wrap: wrap; }
-
   /* The Modal (background) */
   .modal {
     display: none;
@@ -19,7 +17,6 @@
     height: 100%;
     overflow: auto;
     background-color: black; }
-
   /* Modal Content */
   .modal-content {
     position: relative;
@@ -28,7 +25,6 @@
     padding: 0;
     width: 90%;
     max-width: 1200px; }
-
   /* The Close Button */
   .close {
     color: white;
@@ -38,16 +34,13 @@
     font-size: 2.5rem;
     font-weight: bold;
     background: #000; }
-
   .close:hover,
   .close:focus {
     color: white;
     text-decoration: none;
     cursor: pointer; }
-
   .mySlides {
     display: none; }
-
   /* Next & previous buttons */
   .prev,
   .next {
@@ -64,17 +57,14 @@
     border-radius: 0 3px 3px 0;
     user-select: none;
     -webkit-user-select: none; }
-
   /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px; }
-
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8); }
-
   /* Number text (1/3 etc) */
   .numbertext {
     color: black;
@@ -82,23 +72,18 @@
     padding: 8px 12px;
     position: absolute;
     top: 0; }
-
   .caption-container {
     text-align: center;
     background-color: black;
     padding: 2px 16px;
     color: white; }
-
   .active,
   .demo:hover {
     opacity: 1; }
-
   img.hover-shadow {
     transition: 0.3s; }
-
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
-
   * {
     font: 100% "Open Sans Condensed", sans-serif;
     padding: 0;
@@ -109,25 +94,18 @@
     * a:hover {
       color: #7d7d7d;
       cursor: pointer; }
-
   html body {
     width: 100%; }
-
   h2 {
     font-size: 3rem; }
-
   h3 {
     font-size: 2.5rem; }
-
   h4 {
     font-size: 2rem; }
-
   .active {
     display: block; }
-
   .hidden {
     display: none; }
-
   .header_wrapper {
     width: 100%; }
     .header_wrapper header {
@@ -167,12 +145,10 @@
         cursor: pointer; }
       .header_wrapper header .nav_item_box {
         display: none; }
-
   .header_img_box {
     width: 100%; }
     .header_img_box img {
       width: 100%; }
-
   .logo_wrapper {
     width: 100%;
     display: flex;
@@ -186,7 +162,6 @@
       font-size: 2.5rem; }
     .logo_wrapper img {
       max-width: 50%; }
-
   .welcome_wrapper {
     padding-top: 2.5%;
     width: 100%; }
@@ -195,7 +170,6 @@
       margin-right: auto;
       margin-left: auto;
       text-align: center; }
-
   .akuelles_wrapper {
     width: 100%; }
     .akuelles_wrapper .akl_box {
@@ -217,7 +191,6 @@
         color: white; }
     .akuelles_wrapper .akt_headline_box {
       border-bottom: 2px solid #9900cc; }
-
   .content_box {
     padding-top: 2.5%;
     width: 80%;
@@ -250,20 +223,38 @@
       margin-left: 1%; }
       .content_box ul li {
         font-size: 1rem; }
-
   .w_wrapper {
     padding-top: 2.5%;
     width: 100%;
     border-bottom: 2px solid #9900cc;
     margin-bottom: 5%; }
-
   .fullbox_wrapper {
     padding-top: 2.5%;
     width: 80%;
     margin: 0 auto; }
     .fullbox_wrapper h3 {
       text-align: center; }
-
+    .fullbox_wrapper p br {
+      font-size: 0.65rem; }
+    .fullbox_wrapper h3 {
+      text-align: center; }
+    .fullbox_wrapper h5 {
+      font-size: 0.65rem;
+      color: black;
+      font-style: italic; }
+    .fullbox_wrapper ul {
+      padding-left: 4.5%; }
+      .fullbox_wrapper ul li {
+        font-size: 0.65rem; }
+    .fullbox_wrapper ol {
+      padding-left: 4.5%; }
+      .fullbox_wrapper ol li {
+        font-size: 0.65rem; }
+    .fullbox_wrapper a,
+    .fullbox_wrapper a:focus,
+    .fullbox_wrapper a:hover {
+      color: #7d7d7d;
+      cursor: pointer; }
   footer {
     position: relative;
     bottom: 0;
@@ -283,5 +274,3 @@
       color: #7d7d7d;
       font-size: 0.75rem;
       cursor: pointer; } }
-
-/*# sourceMappingURL=mobile.css.map */
