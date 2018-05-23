@@ -430,6 +430,16 @@
       text-align: center;
     }
 
+    a,
+    a:focus {
+      color: white;
+      font-size: 0.65rem;
+    }
+    a:hover {
+      color: $grau;
+      font-size: 0.65rem;
+    }
+
   }
 
 
