@@ -14,5 +14,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Zahnarztpraxis_Rokita node_modules" level="project" />
   </component>
 </module>
